@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: #f0f0f0;
+    padding: 45px 10%;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    box-shadow: 0px 1px 20px 0px rgba(99, 96, 96, 0.692);
+    -webkit-box-shadow: 0px 1px 20px 0px rgba(99, 96, 96, 0.692);
+    -moz-box-shadow: 0px 1px 20px 0px rgba(99, 96, 96, 0.692);
+}
+
 .imgs-container ul{
     display: flex;
     align-items: center;
