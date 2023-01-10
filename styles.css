@@ -16,7 +16,7 @@ header div{
     left: 0;
     top: 0;
     padding: 30px 10%;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-size: 1.4rem;
     font-weight: 500;
     box-shadow: 0px 1px 20px 0px rgba(99, 96, 96, 0.692);
@@ -48,9 +48,27 @@ header div{
 
 .imgs-container .img-content{
     position: absolute;
-    bottom: 30px;
-    left: 30px;
+    bottom: 0;
+    background: linear-gradient(#00000000, #000000);
+    width: 100%;
+    height: 55%;
     opacity: 0;
+    transition: opacity 0.2s ease-in 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 70px 20px;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.imgs-container .img-content a{
+    color: rgb(0, 0, 255);
+}
+
+.imgs-container .active .img-content{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.6s;
 }
 
 .imgs-container ul li img{
