@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Toto:wght@400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: 'Noto Serif Toto', serif;
 }
 
 header div{
@@ -16,6 +18,7 @@ header div{
     padding: 30px 10%;
     text-transform: capitalize;
     font-size: 1.4rem;
+    font-weight: 500;
     box-shadow: 0px 1px 20px 0px rgba(99, 96, 96, 0.692);
     -webkit-box-shadow: 0px 1px 20px 0px rgba(99, 96, 96, 0.692);
     -moz-box-shadow: 0px 1px 20px 0px rgba(99, 96, 96, 0.692);
