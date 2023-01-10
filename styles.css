@@ -28,7 +28,7 @@ header div{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60vw;
+    width: 1092px;
     margin: 130px auto 0px auto;
 }
 
@@ -82,4 +82,38 @@ header div{
     min-width: 100%;
     max-height: 100%;
     object-fit: cover;
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 500px) {
+    .imgs-container ul{
+        flex-direction: column;
+        width: 95%;
+        height: 80vh;
+        margin-top: 100px;
+    }
+
+    .imgs-container ul li {
+        margin: 5px 0px;
+        width: 100%;
+    }
+
+    .imgs-container .img-content {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .imgs-container ul{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 1210px){
+    .imgs-container ul{
+        width: 80%;
+    }
+
 }
