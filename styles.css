@@ -3,4 +3,47 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
+}
+
+.imgs-container ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    margin: auto;
+}
+
+.imgs-container ul .active{
+    flex: 7;
+}
+
+.imgs-container ul li{
+    position: relative;
+    margin: 0 10px;
+    height: 70vh;
+    flex: 0.5;
+    overflow: hidden;
+    border-radius: 30px;
+    transition: flex .7s ease-in;
+}
+
+.imgs-container .img-content{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    opacity: 0;
+}
+
+.imgs-container ul li img{
+    /* width: 50px; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgs-container ul .active img{
+    min-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
 }
