@@ -89,7 +89,7 @@ header div{
 @media screen and (max-width: 500px) {
     .imgs-container ul{
         flex-direction: column;
-        width: 95%;
+        width: 85%;
         height: 80vh;
         margin-top: 100px;
     }
@@ -102,18 +102,4 @@ header div{
     .imgs-container .img-content {
         padding: 20px;
     }
-}
-
-@media screen and (max-width: 900px){
-    .imgs-container ul{
-        width: 90%;
-    }
-
-}
-
-@media screen and (max-width: 1210px){
-    .imgs-container ul{
-        width: 80%;
-    }
-
 }
