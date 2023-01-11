@@ -86,7 +86,7 @@ header div{
 
 
 /* RESPONSIVE */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .imgs-container ul{
         flex-direction: column;
         width: 85%;
